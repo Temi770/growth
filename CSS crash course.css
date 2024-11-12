@@ -1,0 +1,45 @@
+h1{
+ color: blueviolet; 
+ font-family: serif;  
+}
+body{ background-color: cadetblue;
+font-family:cursive;
+}
+p{color: wheat;
+font-weight: bolder;line-height: 1.6em;}
+.box1{background-color: darkred;
+border: 10px black solid;
+border-radius: 15px;
+border-bottom-style: dotted;}
+.container{margin: auto;}
+.videobox{border: 10px darkred solid;
+border-radius: 25px;
+border-style: dashed;}
+.categories{
+    border: 10px darkred solid;
+    padding: 10px;
+    border-radius: 15px;}
+    .categories h2{
+     text-align: center; 
+     font-family: cursive;  
+     color: silver;
+    }
+.categories ul{q
+    border: 1px;
+    list-style: circle;
+    a:hover{color: red;}
+    a:active{color: green;}
+    
+}
+.categories li{
+    padding: 6px;
+border-bottom: dotted 2px;}
+.my form{ padding: 20px;color: darkgoldenrod;border-radius: 10px;display: block;}
+ .input{ border-radius: 7px;; background-color: darkgoldenrod;display: block;}
+ 
+ .button{border-radius: 7px;background-color: gray;color: antiquewhite;}}
+ .block{float: {color: black;}
+ .h3{color: darkred;}
+.p{color: darkgoldenrod;font-family: cursive;}
+.q{color: khaki;font-family: cursive;}
+.r{color: magenta;font-family: cursive;}

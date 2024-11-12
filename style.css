@@ -1,0 +1,116 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {font-family:cursive;
+font-size: 10px;
+list-style: 1.5;
+background: #fff;}
+a{
+    text-decoration: none
+    #4891ff}
+
+ul{
+    list-style: none;
+}
+img{
+    max-width: 100%;
+}
+/* Navbar */
+.navbar .container{display: flex;
+    justify-content: space-between;
+     align-items: center;
+    background:#fff;
+}
+.navbar .mainmenu  ul {
+    display: flex;
+}
+.navbar ul li a{
+    padding: 10px 20px;
+    display: block;
+    font-weight: 600;
+    transition: 0.5s;
+}
+.navbar ul li a:hover {
+    color: #4891ff ;
+}
+.navbar ul li:last-child a{margin-left: 10px;}
+/* Hero */
+.hero {
+    margin-bottom: 50px;
+}
+.hero .container{
+    background: url('../Pictures/images/product_page.jpg.jpg')no-repeat;
+    background-size: contain;
+    background-position: top right ;
+     
+}
+/*Utility Classes*/
+.container{
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+/* Buttons */
+.btn {
+    display: inline-block;
+    padding: 13px 20px;
+    background:#4891ff ;
+    color: white;
+    font-weight: 600;
+    text-decoration: none;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.btn:hover{
+    opacity: 0.8;
+}
+.btn-primary {
+    background: #4891ff;
+    color: #fff;
+}
+.btn-dark {
+    background: darkred;
+    color: #fff;
+}
+.btn-block{
+    display:block ;
+}
+/*Text Classes*/
+.text-xxl{
+    font-size: 3rem;
+    line-height: 1.2;
+    font-weight: normal;
+    margin: 40px 0 20px;
+}
+.text-xl {
+    font-size: 2.2rem;
+    line-height: 1.4;
+    font-weight: normal;
+    margin: 40px 0 20px;
+}
+.text-lg {
+    font-size: 1.8rem;
+    line-height: 1.4;
+    font-weight: normal;
+    margin: 30px 0 20px;
+}
+.text-md {
+    font-size: 1.2rem;
+    line-height: 1.4;
+    font-weight: normal;
+    margin: 20px 0 10px;
+}
+.text-sm {
+    font-size: 0.9rem;
+    line-height: 1.4;
+    font-weight: normal;
+    margin: 10px 0 5px;
+}
+.text-center {
+    text-align: center;
+}
