@@ -15,8 +15,8 @@ faqContainer.addEventListener('click', (e) => {
 
     // Toggle icon
     icon.classList.toggle('fa-plus');
-    icon.classList.toggle('fa-minus');
-
+  icon.classList.toggle('fa-minus');
+  
     // Toggle visibility of body
     groupBody.classList.toggle('open');
 
@@ -37,12 +37,15 @@ faqContainer.addEventListener('click', (e) => {
 });
 
 // Mobile Menu
-document.addEventListener('DOMContentLoaded', () => {
-  const hamburgerButton = document.querySelector('.hamburger-button');
-  const mobileMenu = document.querySelector('.mobile-menu');
+document.addEventListener('DOMContentLoaded',
+  () => {
+    const hamburgerButton = document.querySelector('.hamburger-button');
+    const mobileMenu = document.querySelector('.mobile-menu');
 
-  hamburgerButton.addEventListener('click', () =>
-    mobileMenu.classList.toggle('active')
-  );
-});
+    hamburgerButton.addEventListener('click', () =>
+      mobileMenu.classList.toggle('active')
+    );
+  });
+
+
 
